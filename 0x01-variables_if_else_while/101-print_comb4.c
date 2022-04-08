@@ -8,36 +8,38 @@
 
 int main(void)
 {
-
-int c;
-int d;
-int e = 0;
-
-while (e < 10)
+int p = 48, q = 48, y = 48, x = 49;
+while (p < 58)
 {
-d = 0;
-while (d < 10)
+while (q < 58)
 {
-c = 0;
-while (c < 10)
+while (y < 58)
 {
-if (c != d && d != e && e < d && d < c)
+while (x < 58)
 {
-putchar('0' + e);
-putchar('0' + d);
-putchar('0' + c);
-
-if (c + d + e != 9 + 8 + 7)
+putchar(p);
+putchar(q);
+putchar(' ');
+putchar(y);
+putchar(x);
+if (!(p == 57 && q == 56 && y == 57 && x == 57))
 {
 putchar(',');
 putchar(' ');
 }
+x++;
 }
-c++;
+y++;
+x = 48;
 }
-d++;
+q++;
+q = p;
+x = q + 1;
 }
-e++;
+p++;
+q = 48;
+y = p;
+x = q+ 1;
 }
 putchar('\n');
 return (0);
