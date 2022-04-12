@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - exection starts from main
- * program - print _putchar
- * return: Always 0 (success)
+ * main - Entry point
+ *
+ * Return: nothing, return void
  */
 
 int main(void)
