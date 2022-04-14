@@ -2,7 +2,9 @@
 /**
  *_isupper - check if its an uppercase character
  *
- *return : return 1 for uppercase, 0 for lowercase
+ *@c: Check the character
+ *
+ *Return: 1 (success) or 0 (failure)
  */
 
 int _isupper(int c)
