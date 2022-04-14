@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isdigit - Check if it is a digit
+ * _isdigit - Checks if the characters are numbers
  *
  *@c: check the character
  *
- *Return - 1 (success) or 0 (faliure)
+ *Return: 1 (success) or 0 (faliure)
  */
 
 int _isdigit(int c)
