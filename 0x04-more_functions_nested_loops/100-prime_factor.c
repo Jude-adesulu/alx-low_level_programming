@@ -17,7 +17,7 @@ for (a = 1; a <= sqr; a++)
 {
 if (num % a == 0)
 {
-max_p = number / a;
+max_p = num / a;
 }
 }
 
