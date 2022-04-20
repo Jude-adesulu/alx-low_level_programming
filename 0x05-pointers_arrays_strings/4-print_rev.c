@@ -3,7 +3,7 @@
 /**
  * print_rev - main function.
  * @s: Pointer, the string to print.
- * 
+ *
  * Return: none
  */
 
