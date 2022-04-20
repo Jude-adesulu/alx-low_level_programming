@@ -5,7 +5,7 @@
  *
  *@s: Pointer with the address value
  *
- *Return - value
+ * Return: none
  */
 
 
