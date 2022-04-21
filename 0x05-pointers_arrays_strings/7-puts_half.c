@@ -1,23 +1,28 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character of a string
+ * puts_half - print half a strong
  *
  * @str: Input string
  *
  * Return: void
  */
 
-void puts2(char *str)
+void puts_half(char *str)
 {
 int i = 0;
+int n;
 
 while (str[i] != '\0')
-{
-if (i % 2 == 0)
-_putchar(str[i]);
 i++;
-}
+
+if (i % 2 != 0)
+n = (i + 1) / 2;
+else
+n = i / 2;
+
+for (; str[n] != '\0'; n++)
+_putchar(str[n]);
 
 _putchar('\n');
 }
