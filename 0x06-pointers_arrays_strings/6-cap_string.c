@@ -6,13 +6,13 @@
  * Return: 0 or 1
  */
 
-int separator( char c)
+int separator(char c)
 {
 char sep[] = " \t\n,;.!?\"(){}";
 int i;
 for (i = 0; i < 13; i++)
 {
-if ( c == sep[i])
+if (c == sep[i])
 {
 return (1);
 }
@@ -38,7 +38,7 @@ str[0] = str[0] - 32;
 }
 for (i = 1; str[i]; i++)
 {
-if((separator(str[i -1])) && (str[i] > 96 && str[i]< 123))
+if ((separator(str[i - 1])) && (str[i] > 96 && str[i] < 123))
 {
 str[i] = str[i] - 32;
 }
