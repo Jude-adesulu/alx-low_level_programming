@@ -10,7 +10,7 @@ char *leet(char *c)
 {
 int i, j;
 char letters[] = {'A', 'E', 'O', 'T', 'L'};
-char numbers[] = {4, 3, 0, 7, 1};
+int numbers[] = {4, 3, 0, 7, 1};
 
 for (i = 0; c[i] != '\0'; i++)
 {
