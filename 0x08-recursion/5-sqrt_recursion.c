@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - Checks for the square root of @c
+ * sqrt_recursion - Checks for the square root of @c
  * @g: Guess at sqrt
  * @c: Number to find sqrt of
  * Return: -1 or sqrt of c
