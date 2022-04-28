@@ -4,7 +4,7 @@
  * factorial - return a factorial
  * @n: contains an integer
  * Return : An integer
- *
+ */
 
 int factorial(int n)
 {
