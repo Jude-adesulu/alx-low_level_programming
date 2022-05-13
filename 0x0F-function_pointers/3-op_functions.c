@@ -11,6 +11,7 @@
  *
  * Return: Sum of @a and @b
  */
+
 int op_add(int a, int b)
 {
 return (a + b);
@@ -24,6 +25,21 @@ return (a + b);
 * @b: A number
 *
 * Return: Difference of @a and @b
+*/
+
+int op_sub(int a, int b)
+{
+return (a - b);
+}
+
+/**
+* op_mul - Multiplies two numbers
+*
+* @a: A number
+*
+* @b: A number
+*
+* Return: Product of @a and @b
 */
 
 int op_mul(int a, int b)
