@@ -3,18 +3,27 @@
 #include "lists.h"
 
 /**
-*_strlen - gets length of the string
- * @s: string
- * Return: length of the string
+ * _strlen - Returns the length of a string
+ *
+ * @s: The character containing the string
+ *
+ * Return: The length of the character
  */
-int _strlen(const char *s)
-{
-	int i;
 
-	for (i = 0; s[i]; i++)
-		;
-	return (i);
+int _strlen(char *s)
+{
+	int len = 0;
+
+	while (*s != '\0')
+	{
+		len++;
+		s++;
+	}
+
+	return (len);
 }
+
+
 /**
  * add_node - add new nodes to the list
  * @head: current place in the list
